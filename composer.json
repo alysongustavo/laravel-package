@@ -1,0 +1,29 @@
+{
+    "name": "alysonrodrigo/package",
+    "description": "Biblioteca de teste pratico",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Alyson Rodrigo",
+            "email": "g.dasilva@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/Migrations"
+        ],
+        "psr-4": {
+            "AlysonRodrigo\\Package\\": "src/"
+        }
+    },
+    "extras" : {
+        "laravel": {
+            "providers": [
+                "AlysonRodrigo\\Package\\Providers\\PackageProvider"
+            ]
+
+        }
+    }
+}
