@@ -1,7 +1,7 @@
 {
     "name": "alysonrodrigo/package",
     "description": "Biblioteca de teste pratico",
-    "license": "GPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alyson Rodrigo",
